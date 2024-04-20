@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() { 
+    float a,b,c;
+    printf("Введите значение для a ");
+    scanf("%f", &a);
+    printf("Введите значение для b ");
+    scanf("%f", &b);
+     printf("Введите значение для c ");
+    scanf("%f", &c); 
+    if((a==b)||(b==c)||(a==c)){
+        float A=a+5;
+        printf("A = %f \n", A);
+        float B=b+5;
+        printf("B = %f \n", B);
+        
+        float C=c+5;
+        printf("C = %f \n", C);
+    } else {
+        printf("Равных нет");
+    } 
+    return 0;
+}
